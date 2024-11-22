@@ -1,0 +1,17 @@
+/* All css plugin & helper */
+
+/* fontawesome */
+@import url("./plugins/fontawesome-all.min.css");
+
+/* Swiper */
+@import url("./plugins/swiper.min.css");
+
+/* annimatedheadline */
+@import url("./plugins/jquery.animatedheadline.css");
+
+/* fancybox */
+@import url("./plugins/fancybox.css;");
+
+/* Helper class */
+@import url("./global.css");
+
