@@ -2020,7 +2020,7 @@ a:hover, a:active {
   z-index: 2;
 }
 #dsn_header.header-normal {
-  padding-top: 180px;
+  padding-top: 110px;
 }
 @media only screen and (min-width: 768px) {
   #dsn_header.header-normal .title:not(.title-org) {
@@ -2997,7 +2997,7 @@ a:hover, a:active {
 }
 @media only screen and (min-width: 992px) {
   .root-blog .blog-item .left-box {
-    flex: 0 1 40%;
+    flex: 0 1 30%;
   }
 }
 @media only screen and (max-width: 991px) {
@@ -3005,10 +3005,11 @@ a:hover, a:active {
     margin-bottom: 15px;
   }
 }
+
 @media only screen and (min-width: 992px) {
   .root-blog .blog-item .right-box {
-    flex: 0 1 60%;
-    padding-left: 30px;
+    flex: 0 1 70%;
+    padding-left: 10px;
   }
 }
 
@@ -3093,6 +3094,9 @@ a:hover, a:active {
 @media only screen and (max-width: 767px) {
   .news-content .post-tags {
     padding: 30px 0 0;
+  }
+  .right-box span {
+    display: block;
   }
 }
 .news-content .post-tags a {
@@ -3965,7 +3969,7 @@ ul.dsn-list .list-item {
   align-items: center;
 }
 ul.dsn-list .list-item.background-main, ul.dsn-list .list-item .background-section, ul.dsn-list .list-item .background-theme {
-  padding: 8px 20px;
+  padding: 20px 30px;
 }
 
 .dsn-grid-layout {
@@ -4201,7 +4205,7 @@ ul.intro-project-list li h5.title-list-project + p.description-list-project {
   margin-right: 20px;
 }
 .icon-top .dsn-service .service-item .service-item-inner .dsn-icon:not(.dsn-bg-before) {
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 .icon-right .dsn-service .service-item .service-item-inner .dsn-icon:not(.dsn-bg-before) {
   order: 2;
@@ -6546,3 +6550,5 @@ body.tax-product_tag #dsn_header, body.tax-product_cat #dsn_header {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+
+.fa-arrow-left {margin-right: 4px;}
