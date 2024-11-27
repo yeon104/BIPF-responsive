@@ -2489,6 +2489,10 @@ a:hover, a:active {
   height: 350px;
   max-height: 350px;
 }
+.news .dsn-posts.h-350 .box-image-bg {
+  width: 100%;
+  height: 100%;
+}
 .dsn-posts.img-70 .box-image-bg {
   height: 70vh;
   max-height: 70vh;
@@ -2930,19 +2934,21 @@ a:hover, a:active {
   font-size: 18px;
   letter-spacing: 2px;
 }
+
 .filtering-t .filtering-wrap .filtering button {
   color: var(--heading-color);
   width: auto;
-  margin-right: 10px;
-  font-size: 14px;
+  margin-right: 5px;
+  margin-bottom: 8px;
+  font-size: 15px;
   font-weight: 400;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   letter-spacing: 2px;
+  min-height: 65px;
   text-transform: uppercase;
 }
 .filtering-t .filtering-wrap .filtering button:not(:last-of-type):after {
-  content: "/";
   position: absolute;
   margin: 0 2px;
   color: var(--heading-color);
@@ -2953,8 +2959,10 @@ a:hover, a:active {
 @media only screen and (max-width: 575px) {
   .filtering-t .filtering-wrap .filtering button {
     padding-top: 0;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     margin: 0 10px 10px 0;
+    font-size: 14px;
+    min-height: 45px;
   }
 }
 
@@ -2971,6 +2979,14 @@ a:hover, a:active {
   padding-left: 60px;
   padding-top: var(--blog-g, 50px);
   padding-bottom: var(--blog-g, 50px);
+}
+.notice .blog-item {
+  padding-left: 60px;
+  padding-top: var(--blog-g, 35px);
+  padding-bottom: var(--blog-g, 35px);
+}
+.notice h4 {
+  font-size: 19px;
 }
 .root-blog .blog-item:last-of-type {
   border-bottom: 0;
@@ -2999,6 +3015,9 @@ a:hover, a:active {
   .root-blog .blog-item .left-box {
     flex: 0 1 30%;
   }
+  .notice .blog-item .left-box {
+    flex: 0 1 100% ;
+  }
 }
 @media only screen and (max-width: 991px) {
   .root-blog .blog-item .left-box {
@@ -3011,6 +3030,10 @@ a:hover, a:active {
     flex: 0 1 70%;
     padding-left: 10px;
   }
+  .notice .blog-item .right-box {
+    flex: 0 1 20%;
+  }
+
 }
 
 .news-content {
@@ -3569,7 +3592,7 @@ body.error404 .sm-title-block span {
 }
 #dsn_footer ul.menu li a, #dsn_footer ul.sub-menu li a {
   font-weight: 600;
-  font-size: 11px;
+  font-size: 14 px;
   letter-spacing: 2.5px;
 }
 #dsn_footer ul.menu li:not(:last-child) a, #dsn_footer ul.sub-menu li:not(:last-child) a {
@@ -4660,7 +4683,7 @@ ul.intro-project-list li h5.title-list-project + p.description-list-project {
 }
 @media only screen and (min-width: 992px) {
   .dsn-resume .resume-item:not(:last-of-type) {
-    padding-bottom: 50px;
+    padding-bottom: 35px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -4994,6 +5017,15 @@ ul.intro-project-list li h5.title-list-project + p.description-list-project {
   .about-2 .box-img {
     display: none;
   }
+  .location .w-60 {
+    width: 90%;
+  }
+}
+
+.location .w-30 {
+  font-weight: 550;
+  font-size: 19px;
+  color: #fff;
 }
 
 .about-personal {
