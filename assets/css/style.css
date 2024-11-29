@@ -2971,6 +2971,8 @@ a:hover, a:active {
 -------------------------------------------------------- */
 .root-blog {
   counter-reset: compteListe;
+  margin-top: 100px;
+  margin-bottom: 300px;
 }
 .root-blog .type-p-nav {
   margin-top: var(--blog-g, 50px);
@@ -3043,6 +3045,13 @@ a:hover, a:active {
 .news-content .post-content {
   position: relative;
   display: block;
+}
+.news-content .post-content .news_view {
+  letter-spacing: 1px; 
+  color: #b8b8b8; 
+  line-height: 1.7;
+  font-size: 16.5px;
+  
 }
 .news-content .post-content > * {
   margin-bottom: 30px;
@@ -3307,15 +3316,18 @@ a:hover, a:active {
 }
 .dsn-form input[type=submit] {
   position: relative;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 16px;
   letter-spacing: 3px;
   text-transform: uppercase;
   color: var(--heading-color);
-  padding: 20px 30px;
+  padding: 16px 20px;
   cursor: pointer;
   z-index: 9;
-  min-width: 150px;
+  min-width: 130px;
+}
+.dsn-form .news-b {
+  margin: 20px 10px 0 0 ;
 }
 .dsn-form .ajax-loader {
   position: absolute;
@@ -4358,6 +4370,44 @@ ul.intro-project-list li h5.title-list-project + p.description-list-project {
   }
 
 }
+#sub .tb-list dl {
+  border-bottom: 1px solid #e8e8e8;
+  width: 100%;
+  display: table;
+  margin-bottom: 0px;
+}
+
+.workshop-a {
+  border-bottom: 1px solid #6e6e6e;
+  padding-bottom: 30px;
+}
+
+.workshop-p {
+  margin-left: -200px;
+}
+.wks_pf {
+  font-size: 16.6px;
+  letter-spacing: 1px;
+  line-height: 1.6;
+  color: #b6b6b6;
+}
+.workshop-a h2 {
+  font-size: 30px;
+}
+
+.workshop-3 span {
+  font-size: 17px;
+  letter-spacing: 1px;
+  line-height: 1.8;
+  color: #c4c4c4;
+}
+
+.workshop h4 {
+  font-size: 26px;
+}
+
+
+
 .dsn-testimonials .content-inner .avatar {
   width: 60px;
   height: 60px;
@@ -6584,3 +6634,28 @@ body.tax-product_tag #dsn_header, body.tax-product_cat #dsn_header {
 }
 
 .fa-arrow-left {margin-right: 4px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

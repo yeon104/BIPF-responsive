@@ -1,0 +1,132 @@
+#sub .tb-list {
+    border-top: 1px solid #333;
+    width: 100%;
+}
+#sub .con-tab.active {
+    display: block;
+}
+#sub .con-tab {
+    display: none;
+    padding: 100px 0 0;
+}
+#sub .tb-list dl {
+    border-bottom: 1px solid #e8e8e8;
+    width: 100%;
+    display: table;
+    margin-bottom: 0px;
+}
+
+dl {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+dd {
+    margin-left: 0;
+    letter-spacing: 0.03em;
+}
+#sub .tb-list dt {
+    background: #f5f5f5;
+    display: table-cell;
+    vertical-align: middle;
+    width: 20%;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 700;
+}
+#sub .tb-list dd {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 40px;
+}
+#sub .tb-list p {
+    text-align: left;
+    padding: 5px 0 5px 15px;
+    position: relative;
+    font-weight: 300;
+    font-size: 1.3rem;
+    margin-bottom: 0;
+}
+#sub .tb-list p:after {
+    content: '';
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 14px;
+    background: #ad7e5a;
+}
+#sub .tb-list dl {
+    border-bottom: 1px solid #e8e8e8;
+    width: 100%;
+    display: table;
+    margin-bottom: 0px;
+}
+dt, dd {
+    line-height: 1.42857143;
+    padding: 10px;
+}
+.wr {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+#sub .tb-list dl {
+    border-bottom: 1px solid #e8e8e8;
+    width: 100%;
+    display: table;
+    margin-bottom: 0px;
+}
+dl {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

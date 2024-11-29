@@ -683,6 +683,7 @@ h6, .h6 {
 .title-block {
   letter-spacing: 2px;
   font-size: 22px;
+  color: #dfdfdf;
 }
 
 .sm-p {
@@ -1149,6 +1150,9 @@ a:focus {
 
   margin-top: var(--margin-padding);
 }
+.news .news-section {
+  margin-top: 20px;
+}
 
 .mb-section {
   margin-bottom: var(--margin-padding);
@@ -1217,7 +1221,7 @@ a:focus {
   display: grid;
 }
 .d-grid:not(.dsn-isotope):not(.d-grid-no-space) {
-  grid-column-gap: 80px;
+  grid-column-gap: 60px;
   grid-row-gap: 20px;
 }
 .d-grid:not(.dsn-isotope):not(.dsn-isotope):not(.align-items-center) {
@@ -2171,6 +2175,10 @@ a:focus {
 
 .border-top {
   border-top: 1px solid var(--border-color);
+}
+.th_border-top {
+  border-top: 1px solid var(--border-color);
+  padding-top: 40px;
 }
 
 .border-bottom {
